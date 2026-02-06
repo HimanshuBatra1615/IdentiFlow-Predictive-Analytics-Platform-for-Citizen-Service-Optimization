@@ -1,0 +1,42 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║           LIGHTGBM MODEL TRAINING SUMMARY                    ║
+╚══════════════════════════════════════════════════════════════╝
+
+📊 DATASET STATISTICS
+   • Biometric Records: 327,601
+   • Enrollment Records: 70,670
+   • Merged Records: 350,118
+   • Features: 48
+
+🎯 MODEL CONFIGURATION
+   • Algorithm: LightGBM Classifier
+   • Estimators: 300
+   • Learning Rate: 0.05
+   • Max Depth: 8
+   • Num Leaves: 31
+
+📈 CLASS DISTRIBUTION
+   • Low: 148,653 (42.5%)
+   • Medium: 91,373 (26.1%)
+   • High: 110,092 (31.4%)
+
+🏆 MODEL PERFORMANCE
+   • Accuracy: 100.00%
+   • Precision: 1.00 (all classes)
+   • Recall: 1.00 (all classes)
+   • F1-Score: 1.00 (all classes)
+
+🔝 TOP 5 FEATURES
+   1. total_biometric: 1761
+   2. day: 1049
+   3. month: 922
+   4. bio_age_5_17: 866
+   5. age_0_5: 580
+
+💾 OUTPUT FILES
+   • Model: models/lightgbm_merged_model.pkl
+   • Features: models/feature_columns.pkl
+   • Visualizations: models/*.png
+
+✅ STATUS: Ready for deployment
