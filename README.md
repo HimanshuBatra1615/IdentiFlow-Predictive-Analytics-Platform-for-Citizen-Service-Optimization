@@ -1,6 +1,6 @@
 # 🎯 IdentiFlow: Predictive Analytics Platform for Citizen Service Optimization
 
-> **AI-driven analytics system designed to improve accessibility and planning for Aadhaar service centers through predictive modeling and behavioral trend analysis.
+> AI-driven analytics system designed to improve accessibility and planning for Aadhaar service centers through predictive modeling and behavioral trend analysis.
 
 Tech Stack: Python • React • Flask • LightGBM • Chart.js • Tailwind**
 
